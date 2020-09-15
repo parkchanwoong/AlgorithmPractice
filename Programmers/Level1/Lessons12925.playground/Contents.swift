@@ -1,5 +1,7 @@
 import UIKit
 
 func solution(_ s:String) -> Int {
-    return 0
+    return Int(s)!
 }
+
+solution("+1234")
